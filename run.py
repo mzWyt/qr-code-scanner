@@ -3,5 +3,7 @@ from qr_reader import Read_QR
 
 img = 'qr.png'
 
-Take_Image(img)
-print(Read_QR(img))
+if __name__ == '__main__':
+    
+    Take_Image(img)
+    print(Read_QR(img))
